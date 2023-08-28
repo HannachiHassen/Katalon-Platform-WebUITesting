@@ -4,7 +4,7 @@ Katalon Platform is a software quality management platform that enables you to c
 
 Katalon and use different techniques and low-code solutions to create, organize, manage, execute automated tests in different environments, and manage reports in one single platform.
 
-or test planning, the Platform (formerly Katalon TestOps) allows you to:
+For test planning, the Platform (formerly Katalon TestOps) allows you to:
 
 - plan builds and releases
 
