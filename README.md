@@ -14,5 +14,5 @@ For test planning, the Platform (formerly Katalon TestOps) allows you to:
 
 - schedule executions in cloud environments
 
-- and evaluate whether the application under test is ready to be released
+- evaluate whether the application under test is ready to be released
 
