@@ -7,23 +7,23 @@
    <imagePath>Screenshots/Targets/Page_Flying Ninja  Katalon Shop/button_Add to cart.png</imagePath>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//broken_xpath//button[@name='add-to-cart']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button[name=&quot;add-to-cart&quot;] ~ Broken CSS</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and @name = 'add-to-cart__broken_attribute' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
+         <key>XPATH</key>
+         <value>//broken_xpath//button[@name='add-to-cart']</value>
       </entry>
       <entry>
          <key>IMAGE</key>
          <value>Screenshots/Targets/Page_Flying Ninja  Katalon Shop/button_Add to cart.png</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'add-to-cart__broken_attribute' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>IMAGE</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,6 +31,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>7212f1ae-7e3a-4c12-a7fa-995e4db1691e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,6 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
+      <webElementGuid>36267dfc-16d4-4d8c-9445-6c72bca7b1eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,6 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>add-to-cart__broken_attribute</value>
+      <webElementGuid>87168ebf-c5d9-4461-9bb3-a23bb5bf1add</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,6 +55,7 @@
       <name>value</name>
       <type>Main</type>
       <value>54</value>
+      <webElementGuid>9c138b3f-2dbe-4332-9c6c-894b3db54a7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,6 +63,7 @@
       <name>class</name>
       <type>Main</type>
       <value>single_add_to_cart_button button alt</value>
+      <webElementGuid>b67e3192-6970-4b89-8a04-48fa1762cac3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,6 +71,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add to cart</value>
+      <webElementGuid>d713cd45-ca26-4641-a4f9-010807384652</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,6 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;product-54&quot;)/div[@class=&quot;summary entry-summary&quot;]/form[@class=&quot;cart&quot;]/button[@class=&quot;single_add_to_cart_button button alt&quot;]</value>
+      <webElementGuid>a0250a98-c639-4e77-ba5b-1c5b8eb039e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -80,6 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//broken_xpath//button[@name='add-to-cart']</value>
+      <webElementGuid>8928aaca-ceed-4bfe-9232-ced03ab32a0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//broken_xpath//div[@id='product-54']/div[2]/form/button</value>
+      <webElementGuid>c64cd381-5d54-41a9-86dc-8e8545cb0e37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//broken_xpath//*[normalize-space(text()) and normalize-space(.)='Flying Ninja quantity'])[1]/following::button[1]</value>
+      <webElementGuid>5f071829-e669-4fc4-a5fe-97ed0268bc4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//broken_xpath//*[normalize-space(text()) and normalize-space(.)='$'])[2]/following::button[1]</value>
+      <webElementGuid>a60e204c-c7d5-4024-9314-f21b27fb6ab7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//broken_xpath//*[normalize-space(text()) and normalize-space(.)='POSTER-FLYING-NINJA'])[1]/preceding::button[1]</value>
+      <webElementGuid>62e608d0-7349-4e82-a849-7419d33ae04c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//broken_xpath//*broken_xpath///text()[normalize-space(.)='Add to cart']/parent::*</value>
+      <webElementGuid>5364400c-f4eb-43e3-8469-f1dd5fe8c7a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,5 +135,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//broken_xpath//form/button</value>
+      <webElementGuid>d3bba458-21b1-4668-a090-7bddeba493e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
