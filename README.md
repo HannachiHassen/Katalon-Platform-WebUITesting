@@ -11,12 +11,7 @@ Record and Playback is a great solution to start for beginners and non-programme
 For test planning, the Platform (formerly Katalon TestOps) allows you to:
 
 - plan builds and releases
-
 - align tests with business requirements
-
 - organize and manage tests
-
 - schedule executions in cloud environments
-
 - evaluate whether the application under test is ready to be released
-

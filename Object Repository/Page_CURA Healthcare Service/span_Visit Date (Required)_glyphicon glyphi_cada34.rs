@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b2ad17fd-12d2-45aa-8110-a8fdcc89bd56</webElementGuid>
+      <webElementGuid>3ce98312-e1b0-41de-8fe7-b817141a936f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>glyphicon glyphicon-calendar</value>
-      <webElementGuid>5f715107-14f1-4608-8eea-13d834a082e8</webElementGuid>
+      <webElementGuid>fa881412-e9a8-4aa0-85d2-fc2a062d9aec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-4&quot;]/div[@class=&quot;input-group date&quot;]/div[@class=&quot;input-group-addon&quot;]/span[@class=&quot;glyphicon glyphicon-calendar&quot;]</value>
-      <webElementGuid>92136ebc-581e-4681-b546-6a60f3f5b3b9</webElementGuid>
+      <webElementGuid>8db2e284-5a8c-456c-beb1-9c7c9e0b63c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='appointment']/div/div/form/div[4]/div/div/div/span</value>
-      <webElementGuid>5c934f8c-dce7-4dd0-9382-8c48687858cc</webElementGuid>
+      <webElementGuid>7b013bc2-2b50-478a-ab68-78b1d749ebae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span</value>
-      <webElementGuid>7f4f758e-db92-4670-abc8-1dff65ee8fc3</webElementGuid>
+      <webElementGuid>b3a0e769-82ab-4650-b7e2-6cc8e78fb730</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
