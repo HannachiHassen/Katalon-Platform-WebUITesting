@@ -4,26 +4,24 @@
    <name>a_Make Appointment</name>
    <tag></tag>
    <elementGuidId>b6393777-2912-40b1-b26a-801de96af679</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@id='btn-make-appointment__broken']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#btn-make-appointment__broken</value>
       </entry>
       <entry>
+         <key>XPATH</key>
+         <value>//a[@id='btn-make-appointment___Katalon-Studio-Team-has-broken-this-locator')]</value>
+      </entry>
+      <entry>
          <key>IMAGE</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -31,6 +29,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='btn-make-appointment__broken-too']</value>
+      <webElementGuid>e0610acf-f852-4ae1-b428-9b34cee4180a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -38,6 +37,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='top']/div/a__not-this-one</value>
+      <webElementGuid>255a129d-7acc-4259-8918-0e7e5102336b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -45,6 +45,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Make Appointment')]</value>
+      <webElementGuid>e2d0f705-645f-4893-bd5f-4ca84149c682</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -52,6 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/following::a[1]</value>
+      <webElementGuid>5cc3fc43-7ebd-43f1-9fa2-bb22f356ae7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -59,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[2]/following::a[1]</value>
+      <webElementGuid>b2226913-62f1-4a39-a84f-14434aaa4bbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::a[1]</value>
+      <webElementGuid>1c742921-0600-4b14-8f42-e222e438d6ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/preceding::a[1]</value>
+      <webElementGuid>4aef08c1-f3c1-45bd-ba54-1a66b05aa7b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Make Appointment']/parent::*</value>
+      <webElementGuid>a6356d58-c1ec-4a77-acbe-64dfd772e2b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +93,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, './profile.php#login')]</value>
+      <webElementGuid>2344c62a-23c0-4560-b3e5-e71fd747dffa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,5 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a</value>
+      <webElementGuid>05e9f2c2-b176-45a0-b27e-a16841f8dbf3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
