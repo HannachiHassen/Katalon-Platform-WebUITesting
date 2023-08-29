@@ -32,5 +32,5 @@ WebUI.verifyElementAttributeValue(username, 'value', 'Healed by CSS Selector', 5
 WebUI.setEncryptedText(findTestObject('Web 01 - XPaths were broken - Heal by CSS selector/Page_CURA Healthcare Service/input_Password_password'), 
     'D6wWZFKNXMObfcyi7o9uog==')
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

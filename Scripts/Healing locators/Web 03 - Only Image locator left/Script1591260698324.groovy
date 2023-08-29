@@ -21,16 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Web 02 - Smart XPath Savior/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Web 03 - Only Image locator left/Page_CURA Healthcare Service/a_Make Appointment'))
 
-def username = findTestObject('Web 02 - Smart XPath Savior/Page_CURA Healthcare Service/input_Username_username')
+WebUI.setText(findTestObject('Web 03 - Only Image locator left/Page_CURA Healthcare Service/input_Username_username'), 'Hello Katalon!')
 
-WebUI.setText(username, 'Broken XPath Savior')
-
-WebUI.verifyElementAttributeValue(username, 'value', 'Broken XPath Savior', 5)
-
-WebUI.setEncryptedText(findTestObject('Web 02 - Smart XPath Savior/Page_CURA Healthcare Service/input_Password_password'), 
-    'T8/LSsNC7pQ=')
+WebUI.setEncryptedText(findTestObject('Web 03 - Only Image locator left/Page_CURA Healthcare Service/input_Password_password'), 
+    'BRB8geN7c9U=')
 
 WebUI.closeBrowser()
 
