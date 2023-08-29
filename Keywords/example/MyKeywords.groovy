@@ -25,10 +25,10 @@ public class MyKeywords {
 	@Keyword
 	def AppLogin(){
 		WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-		WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/btnMakeAppointment'))
-		WebUI.setText(findTestObject('Page_CURA Healthcare Service_DataDriven/txtUsername'), 'John Doe')
-		WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service_DataDriven/txtPassword'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
-		WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/btnLogin'))
+		WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/btnMakeAppointment'))
+		WebUI.setText(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/txtUsername'), 'John Doe')
+		WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/txtPassword'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+		WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/btnLogin'))
 	}
 
 	@Keyword

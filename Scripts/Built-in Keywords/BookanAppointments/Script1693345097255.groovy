@@ -21,40 +21,40 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/btnMakeAppointment'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/btnMakeAppointment'))
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service_DataDriven/txtUsername'), 'John Doe')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/txtUsername'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service_DataDriven/txtPassword'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/txtPassword'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/btnLogin'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/btnLogin'))
 
 for (def n : (0..2)) {
-    WebUI.selectOptionByIndex(findTestObject('Page_CURA Healthcare Service_DataDriven/ddHealthcareCenter'), 1, FailureHandling.STOP_ON_FAILURE)
+    WebUI.selectOptionByIndex(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/ddHealthcareCenter'), 1, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/cbReadmission'))
+    WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/cbReadmission'))
 
     if (n == 0) {
-        WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/cbMedicare'))
+        WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/cbMedicare'))
 
         WebUI.delay(1)
     } else if (n == 1) {
-        WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/cbMedicaid'))
+        WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/cbMedicaid'))
 
         WebUI.delay(1)
     } else {
-        WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/cbNone'))
+        WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/cbNone'))
 
         WebUI.delay(1)
     }
     
-    WebUI.setText(findTestObject('Page_CURA Healthcare Service_DataDriven/txtVisitDate'), '31/08/2023')
+    WebUI.setText(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/txtVisitDate'), '31/08/2023')
 
-    WebUI.setText(findTestObject('Page_CURA Healthcare Service_DataDriven/txtComment'), 'I will type somthing in here')
+    WebUI.setText(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/txtComment'), 'I will type somthing in here')
 
-    WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/btnBookAppointment'))
+    WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/btnBookAppointment'))
 
-    WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/btnGotoHomepage'))
+    WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/btnGotoHomepage'))
 }
 
 WebUI.closeBrowser()

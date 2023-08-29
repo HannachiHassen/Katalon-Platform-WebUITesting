@@ -6,7 +6,8 @@
       "keywordMethods": [
         {
           "name": "AppLogin",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "Congrats",
@@ -24,10 +25,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

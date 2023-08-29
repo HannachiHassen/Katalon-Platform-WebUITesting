@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>BookanAppointment</name>
+   <name>Suite 03 - Built-in Keywords</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>d801bd79-a5ac-4837-95b6-4c66149d0153</testSuiteGuid>
+   <testSuiteGuid>2ff400cd-5ff6-434f-8d39-3a2369eb2701</testSuiteGuid>
    <testCaseLink>
-      <guid>ee042123-9e7d-4751-8e91-686e77b2de48</guid>
+      <guid>9da16b57-39d5-4a00-abcd-d67441291273</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests with Record and playback/Login</testCaseId>
+      <testCaseId>Test Cases/Built-in Keywords/BookanAppointments</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>62dc4a87-3e40-40c3-ade7-fe2eaebd2cc0</guid>
+      <guid>1be39cef-23b8-4e54-85d1-a78f2d67a275</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests with Record and playback/BookanAppointment</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7c58140c-1aaa-4105-b6f9-171c9ef38b7b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests with Record and playback/BookanAppointment2</testCaseId>
+      <testCaseId>Test Cases/Built-in Keywords/BookanAppointmentsWithCustomKeywords</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
