@@ -17,5 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+
+WebUI.click(findTestObject('Web 01 - XPaths were broken - Heal by CSS selector/Page_CURA Healthcare Service/a_Make Appointment'))
+
+def username = findTestObject('Web 01 - XPaths were broken - Heal by CSS selector/Page_CURA Healthcare Service/input_Username_username')
+
+WebUI.setText(username, 'Healed by CSS Selector')
+
+WebUI.verifyElementAttributeValue(username, 'value', 'Healed by CSS Selector', 5)
+
+WebUI.setEncryptedText(findTestObject('Web 01 - XPaths were broken - Heal by CSS selector/Page_CURA Healthcare Service/input_Password_password'), 
+    'D6wWZFKNXMObfcyi7o9uog==')
+
+not_run: WebUI.closeBrowser()
 

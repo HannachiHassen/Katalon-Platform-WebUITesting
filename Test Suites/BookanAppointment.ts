@@ -15,21 +15,21 @@
       <guid>ee042123-9e7d-4751-8e91-686e77b2de48</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login</testCaseId>
+      <testCaseId>Test Cases/Automated Tests with Record and playback/Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>62dc4a87-3e40-40c3-ade7-fe2eaebd2cc0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BookanAppointment</testCaseId>
+      <testCaseId>Test Cases/Automated Tests with Record and playback/BookanAppointment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7c58140c-1aaa-4105-b6f9-171c9ef38b7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BookanAppointment2</testCaseId>
+      <testCaseId>Test Cases/Automated Tests with Record and playback/BookanAppointment2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
