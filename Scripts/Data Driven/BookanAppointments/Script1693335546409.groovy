@@ -21,32 +21,41 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/btnMakeAppointment'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service_DataDriven/txtUsername'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service_DataDriven/txtPassword'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/btnLogin'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Hongkong CURA Healthcare Center', true)
+for (def n : (0..2)) {
+    WebUI.selectOptionByIndex(findTestObject('Page_CURA Healthcare Service_DataDriven/ddHealthcareCenter'), 1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission'))
+    WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/cbReadmission'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs'))
+    if (n == 0) {
+        WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/cbMedicare'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'))
+        WebUI.delay(1)
+    } else if (n == 1) {
+        WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/cbMedicaid'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_31'))
+        WebUI.delay(1)
+    } else {
+        WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/cbNone'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'Hello World')
+        WebUI.delay(1)
+    }
+    
+    WebUI.setText(findTestObject('Page_CURA Healthcare Service_DataDriven/txtVisitDate'), '31/08/2023')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
+    WebUI.setText(findTestObject('Page_CURA Healthcare Service_DataDriven/txtComment'), 'I will type somthing in here')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 'Appointment Confirmation')
+    WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/btnBookAppointment'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Go to Homepage'))
+    WebUI.click(findTestObject('Page_CURA Healthcare Service_DataDriven/btnGotoHomepage'))
+}
 
 WebUI.closeBrowser()
 

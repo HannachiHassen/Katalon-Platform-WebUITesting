@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Medicaid_programs</name>
+   <name>txtPassword</name>
    <tag></tag>
-   <elementGuidId>7ba63439-2c4a-4fd2-94cd-e100be781423</elementGuidId>
+   <elementGuidId>35b4463e-7566-44d0-b730-5666f40ec104</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#radio_program_medicaid</value>
+         <value>#txt-password</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='radio_program_medicaid']</value>
+         <value>//input[@id='txt-password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,78 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fc631ee2-6dbd-40b3-8a77-dc48c18db119</webElementGuid>
+      <webElementGuid>2e10a6c4-f32d-4d6b-b352-4ba610a633c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>radio</value>
-      <webElementGuid>17b35e19-fdc2-4c0a-bfc4-79c4881d0071</webElementGuid>
+      <value>password</value>
+      <webElementGuid>b67fc8ba-10f8-4081-972d-2bedd9ec29f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>class</name>
       <type>Main</type>
-      <value>programs</value>
-      <webElementGuid>cd798956-2a5c-45e3-8538-1a3329aa6092</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>60f0fff5-0803-45f1-ad52-f63e43b20179</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>radio_program_medicaid</value>
-      <webElementGuid>dcf44fa6-7269-4aa7-b462-946676a930d5</webElementGuid>
+      <value>txt-password</value>
+      <webElementGuid>6c69d145-aa26-44c9-972e-3958525193d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>6e0607c5-b210-4fde-9924-229ec8861311</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Password</value>
+      <webElementGuid>0714e6d6-484d-451e-a2dc-847a227f7cfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>Medicaid</value>
-      <webElementGuid>9bf72381-7549-4171-89ac-7aab2f0d1b84</webElementGuid>
+      <value>off</value>
+      <webElementGuid>b539fbbf-ad73-4468-a143-d7eb60bf3b80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;radio_program_medicaid&quot;)</value>
-      <webElementGuid>0c974f91-c348-4363-a5cd-b6fbdaa52968</webElementGuid>
+      <value>id(&quot;txt-password&quot;)</value>
+      <webElementGuid>ad6c5ef6-2028-494a-8662-6fa0a00b7d68</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='radio_program_medicaid']</value>
-      <webElementGuid>c8d7b229-2c22-43d8-aba5-7b7e3e042e15</webElementGuid>
+      <value>//input[@id='txt-password']</value>
+      <webElementGuid>e917ffef-609b-46aa-8ea3-937c922bb505</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='appointment']/div/div/form/div[3]/div/label[2]/input</value>
-      <webElementGuid>e14cf21f-8377-4a60-8c1d-dbc5448b0094</webElementGuid>
+      <value>//section[@id='login']/div/div/div[2]/form/div[3]/div/input</value>
+      <webElementGuid>5c2cbe6d-bb48-4fe4-b70b-35cd9519f4ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label[2]/input</value>
-      <webElementGuid>986e8fd3-165f-4e52-baf0-44503092c9c7</webElementGuid>
+      <value>//div[3]/div/input</value>
+      <webElementGuid>be3c5939-4ccb-47e0-99fb-ddc52627d85e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'radio' and @name = 'programs' and @id = 'radio_program_medicaid']</value>
-      <webElementGuid>e3546111-635a-4ca0-88c9-856ce59ed644</webElementGuid>
+      <value>//input[@type = 'password' and @id = 'txt-password' and @name = 'password' and @placeholder = 'Password']</value>
+      <webElementGuid>6f1a1808-f531-4af1-946d-b2cafa4e4b24</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

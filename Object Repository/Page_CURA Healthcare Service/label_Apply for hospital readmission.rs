@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Apply for hospital readmission</name>
    <tag></tag>
-   <elementGuidId>5fb8590e-96e2-46b2-81b4-78be461a7b2c</elementGuidId>
+   <elementGuidId>f28ee7d6-e4c7-4f61-8e35-04f848e8cf39</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>3e00f8bc-e9e0-45ec-83c0-357d262b7f52</webElementGuid>
+      <webElementGuid>5150aec8-9f86-41f9-9d49-e3873c47ff93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>chk_hospotal_readmission</value>
-      <webElementGuid>fbb41a54-f3ea-4728-b671-b7a3fec245e4</webElementGuid>
+      <webElementGuid>68ed3107-f992-4ea4-89f4-1639fcd48ad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>checkbox-inline</value>
-      <webElementGuid>08b2feee-e983-45ba-a3db-43e92edbe18c</webElementGuid>
+      <webElementGuid>7673591e-d6c0-43f3-89ee-07e5667cd1bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
       <value>
                              Apply for hospital readmission
                         </value>
-      <webElementGuid>e4c01f94-5891-4265-8fd4-d39bec7a1f2a</webElementGuid>
+      <webElementGuid>f5f2d1ef-62fa-42ed-8809-f29d7679e067</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-offset-5 col-sm-4&quot;]/label[@class=&quot;checkbox-inline&quot;]</value>
-      <webElementGuid>f1f97fab-2367-467f-a5a6-8c5a31d0d247</webElementGuid>
+      <webElementGuid>b98f55f6-6c7c-49ff-bbd7-e860713aa573</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='appointment']/div/div/form/div[2]/div/label</value>
-      <webElementGuid>75de9765-e32b-497c-a890-1c63be7df3b8</webElementGuid>
+      <webElementGuid>8b502623-dc11-43ab-89db-61ba0781f2de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Facility'])[1]/following::label[1]</value>
-      <webElementGuid>dc1d8221-3801-4723-bec7-da24180a31bc</webElementGuid>
+      <webElementGuid>656cfd55-4034-45f8-8af3-5986aba62405</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[2]/following::label[2]</value>
-      <webElementGuid>64f70c48-be6e-42eb-90f4-2f1ad2104c6b</webElementGuid>
+      <webElementGuid>ae8db463-7a1e-4b46-9c55-6031c5e73162</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/preceding::label[1]</value>
-      <webElementGuid>e61d7f58-7d2e-4c94-b3ab-368bef8df168</webElementGuid>
+      <webElementGuid>97dc5bb5-483a-4f83-8172-712182180137</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Apply for hospital readmission']/parent::*</value>
-      <webElementGuid>21a83d22-976a-4661-ace1-802ce69e8faf</webElementGuid>
+      <webElementGuid>c8569d27-aa3d-4308-b374-106fb0f28e94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/label</value>
-      <webElementGuid>c49742b5-0157-4adc-8ada-51020e98a0e7</webElementGuid>
+      <webElementGuid>cc02622d-c542-4c47-b2cb-1dc38ece90a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +116,6 @@
                         ' or . = '
                              Apply for hospital readmission
                         ')]</value>
-      <webElementGuid>ab4077a8-41a0-4178-9700-a5e24baf774e</webElementGuid>
+      <webElementGuid>3cf84b06-b906-4bf6-a99a-c49a04b2a425</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -32,9 +32,9 @@ WebUI.verifyElementAttributeValue(username, 'value', 'Healed by CSS Selector', 5
 WebUI.setEncryptedText(findTestObject('Web 01 - XPaths were broken - Heal by CSS selector/Page_CURA Healthcare Service/input_Password_password'), 
     'D6wWZFKNXMObfcyi7o9uog==')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
+WebUI.verifyElementText(findTestObject('null'), 
     'Login failed! Please ensure the username and password are valid.')
 
 WebUI.closeBrowser()
