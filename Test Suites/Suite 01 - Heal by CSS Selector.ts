@@ -9,11 +9,13 @@
    <pageLoadTimeout>5</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>a7420f91-5c77-4737-8efa-c1e2d0487af7</testSuiteGuid>
    <testCaseLink>
       <guid>ae44c793-7179-4b88-8a4d-0ffbbc274c44</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web 01 - XPaths were broken - Heal by CSS selector</testCaseId>
+      <testCaseId>Test Cases/Healing locators/Web 01 - XPaths were broken - Heal by CSS selector</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
