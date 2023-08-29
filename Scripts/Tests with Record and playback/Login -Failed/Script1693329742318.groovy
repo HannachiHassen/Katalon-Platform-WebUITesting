@@ -21,18 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Web 01 - XPaths were broken - Heal by CSS selector/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-def username = findTestObject('Web 01 - XPaths were broken - Heal by CSS selector/Page_CURA Healthcare Service/input_Username_username')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'Broken XPath Savior')
 
-WebUI.setText(username, 'Healed by CSS Selector')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jDCdqlXONZ/zg==')
 
-WebUI.verifyElementAttributeValue(username, 'value', 'Healed by CSS Selector', 5)
-
-WebUI.setEncryptedText(findTestObject('Web 01 - XPaths were broken - Heal by CSS selector/Page_CURA Healthcare Service/input_Password_password'), 
-    'D6wWZFKNXMObfcyi7o9uog==')
-
-WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
     'Login failed! Please ensure the username and password are valid.')
