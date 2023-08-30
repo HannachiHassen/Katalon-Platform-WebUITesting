@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Basic Browser Operations
+
+* OpenBrowser : -Description: open a browser and navigate to the specified URL. if the URL is left empty then just open browser. 
+				- Parameters -RawURL (optional)
+
+* NavigateToUrl: -Description: Navigate to the specified web page
+				 - Parameters -RawURL (required)
+
+* maximizedWindow: maximize the window of the web page
+
+* Refrech: Simulate users clicking 'refrech' button on thier browser
+
+* Back:  Simulate users clicking 'back' button on thier browser
+
+* Foward:  Simulate users clicking 'foward' button on thier browser
+
+* closeBrowser: This action will close all windows of the browser</description>
+   <name>TC_001 -Basic browser operations</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3c5c76d3-2998-4d66-898e-0b9ae6a52f6b</testCaseGuid>
+</TestCaseEntity>
