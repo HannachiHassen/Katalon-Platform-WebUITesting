@@ -86,8 +86,10 @@ WebUI.delay(3)
 
 /**
  * Close window by index
+ * For window with index 1, can use currentTab or 1
+ * For window with index 2, can use currentTab+1 or 2
  */
-WebUI.closeWindowIndex(1)
+WebUI.closeWindowIndex(currentTab)
 WebUI.delay(3)
 
 WebUI.closeBrowser()
