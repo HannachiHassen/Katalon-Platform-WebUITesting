@@ -14,8 +14,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
+
 import org.openqa.selenium.Keys as Keys
+
+import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 WebUI.maximizeWindow()
@@ -28,6 +33,11 @@ WebUI.getUrl()
 WebUI.getWindowIndex()
 //define a variable intger and store windwo index 
 int currentTab = WebUI.getWindowIndex()
+
+//open a new window using Javascript snippet
+WebDriver driver= DriverFactory.getWebDriver()
+JavascriptExecutor js= ((driver) as JavascriptExecutor)
+js.executeScript('window.open();')
 
 WebUI.delay(2)
 WebUI.closeBrowser()
