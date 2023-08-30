@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Suite 03 - Built-in Keywords</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite/Suite 03 - Built-in Keywords</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Dynamic Test Suite 1</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Dynamic Test Suite/Dynamic Test Suite 1</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

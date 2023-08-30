@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Allow user to book an appointment</description>
    <name>MTC001_make an appointment</name>
-   <tag></tag>
+   <tag>smoke</tag>
    <comment></comment>
    <testCaseGuid>d79db1bb-0f1e-4141-a812-98da93d40181</testCaseGuid>
 </TestCaseEntity>

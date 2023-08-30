@@ -15,7 +15,7 @@
             <runConfigurationId>Windows</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Suite 04 - Browser Operations</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite/Suite 04 - Browser Operations</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

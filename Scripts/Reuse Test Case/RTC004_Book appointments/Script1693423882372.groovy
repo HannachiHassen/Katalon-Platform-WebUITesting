@@ -17,22 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+for (def n : (0..2)) {
+    WebUI.selectOptionByIndex(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/ddHealthcareCenter'), 1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+    WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/cbReadmission'))
 
-WebUI.maximizeWindow()
+    if (n == 0) {
+        WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/cbMedicare'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+        WebUI.delay(1)
+    } else if (n == 1) {
+        WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/cbMedicaid'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Login'))
+        WebUI.delay(1)
+    } else {
+        WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/cbNone'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control'))
+        WebUI.delay(1)
+    }
+    
+    WebUI.setText(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/txtVisitDate'), '31/08/2023')
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), findTestData('InternalData').getValue(
-        'username', 1))
+    WebUI.setText(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/txtComment'), 'I will type somthing in here')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), GlobalVariable.PASSWORD)
+    WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/btnBookAppointment'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+    WebUI.click(findTestObject('Page_CURA Healthcare Service_Built-in Keywords/btnGotoHomepage'))
+}
+
+WebUI.closeBrowser()
 
