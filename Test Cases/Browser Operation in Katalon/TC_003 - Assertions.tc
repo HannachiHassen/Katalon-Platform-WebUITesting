@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Assertions in Katalon
+
+ * Verify Title match the expected string
+
+ * Verify Element is present 
+
+ * Verify Element is clickable 
+
+ * Verify Element is visibale 
+
+ * Verify Element is visibale in viewport
+
+ * Verify Element is not present
+
+ * Verify text is present
+
+ * Verify Element text
+</description>
    <name>TC_003 - Assertions</name>
    <tag></tag>
    <comment></comment>

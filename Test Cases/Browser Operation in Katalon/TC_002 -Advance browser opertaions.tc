@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Advance Browser Operations
+
+* OpenBrowser
+
+* Get window title 
+
+ * Get URL of the window
+
+ * Get window index
+
+ * Open a new window using Javascript snippet
+ 
+ * Switch window with index
+
+ * Switch to window with title
+
+ * Switch to window with URL
+
+ * Close window by title
+
+ * Close window by URL
+
+ * Close window by index
+ 
+
+</description>
    <name>TC_002 -Advance browser opertaions</name>
    <tag></tag>
    <comment></comment>
