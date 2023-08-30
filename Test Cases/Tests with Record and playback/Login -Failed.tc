@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Common test case used to login
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Login failed! Please ensure the username and password are valid' error message is displayed after failed login</description>
    <name>Login -Failed</name>
    <tag></tag>
    <comment></comment>
