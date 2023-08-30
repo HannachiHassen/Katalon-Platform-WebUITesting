@@ -24,6 +24,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 WebUI.maximizeWindow()
+
 // get window title
 WebUI.getWindowTitle()
 println (WebUI.getWindowTitle()) //we can use print (WebUI.getWindowTitle())
@@ -39,5 +40,16 @@ WebDriver driver= DriverFactory.getWebDriver()
 JavascriptExecutor js= ((driver) as JavascriptExecutor)
 js.executeScript('window.open();')
 
+//switch window with index 1 and navigate to wiki
+WebUI.switchToWindowIndex(currentTab+1)
+WebUI.navigateToUrl('https://www.wikipedia.org/')
+WebUI.getWindowIndex()
+WebUI.delay(2)
+
+//switch to window with title
+WebUI.switchToWindowTitle('CURA Healthcare Service')
+
+//switch to window with URL
+WebUI.switchToWindowUrl('https://www.wikipedia.org/')
 WebUI.delay(2)
 WebUI.closeBrowser()
