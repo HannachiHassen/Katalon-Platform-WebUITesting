@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Hongkong CURA Healthcare Center', true)
+    healthcareCenter, true)
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission'))
 
@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'), '31/08/2023')
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'Test reuse')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), comment)
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
 

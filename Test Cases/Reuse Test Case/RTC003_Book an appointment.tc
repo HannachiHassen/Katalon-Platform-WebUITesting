@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC003_Book an appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c615d038-4eba-4003-9766-4afa0e40b174</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7a2e8bcb-3bc1-4acc-b013-91bf4eccc3c7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5de22382-b4a4-4ce9-80be-8a3d14f15275</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>7a2e8bcb-3bc1-4acc-b013-91bf4eccc3c7</id>
+      <masked>false</masked>
+      <name>healthcareCenter</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test reuse'</defaultValue>
+      <description></description>
+      <id>5de22382-b4a4-4ce9-80be-8a3d14f15275</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Reuse Test Case/RTC001_Login into application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Reuse Test Case/RTC_Book an appointment'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reuse Test Case/RTC003_Book an appointment'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Reuse Test Case/RTC002_Logout from application'), [:], FailureHandling.STOP_ON_FAILURE)
 
