@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC002_Logout from application</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3dc7bd53-0898-4853-b92a-0a8c087bb7a8</testCaseGuid>
+</TestCaseEntity>
