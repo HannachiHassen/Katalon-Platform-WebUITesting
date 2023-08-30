@@ -19,12 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 WebUI.maximizeWindow()
-
+// get window title
 WebUI.getWindowTitle()
 println (WebUI.getWindowTitle()) //we can use print (WebUI.getWindowTitle())
-
+// get URL of the window
 WebUI.getUrl()
 
 WebUI.getWindowIndex()
+//define a variable intger and store windwo index 
+int currentTab = WebUI.getWindowIndex()
+
 WebUI.delay(2)
 WebUI.closeBrowser()
