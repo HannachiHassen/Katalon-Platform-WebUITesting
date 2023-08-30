@@ -22,34 +22,72 @@ import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
+
+/**
+ * Open Browser and pass the URL
+ * Maximize Window
+ */
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 WebUI.maximizeWindow()
 
-// get window title
+/**
+ * Get window title and print, can use print (WebUI.getWindowTitle())
+ * Get URL of the window
+ */
 WebUI.getWindowTitle()
-println (WebUI.getWindowTitle()) //we can use print (WebUI.getWindowTitle())
-// get URL of the window
+println (WebUI.getWindowTitle()) 
 WebUI.getUrl()
 
+/**
+ * Get window index
+ * Define a variable intger and store windwo index 
+ */
 WebUI.getWindowIndex()
-//define a variable intger and store windwo index 
 int currentTab = WebUI.getWindowIndex()
 
-//open a new window using Javascript snippet
+/**
+ * Open a new window using Javascript snippet
+ * 
+ */
 WebDriver driver= DriverFactory.getWebDriver()
 JavascriptExecutor js= ((driver) as JavascriptExecutor)
 js.executeScript('window.open();')
 
-//switch window with index 1 and navigate to wiki
+/**
+ * Switch window with index currentTab+1 
+ * Navigate to wiki
+ * Get index of the new window
+ */
 WebUI.switchToWindowIndex(currentTab+1)
 WebUI.navigateToUrl('https://www.wikipedia.org/')
 WebUI.getWindowIndex()
-WebUI.delay(2)
+WebUI.delay(3)
 
-//switch to window with title
+/**
+ * Switch to window with title
+ */
 WebUI.switchToWindowTitle('CURA Healthcare Service')
 
-//switch to window with URL
+/**
+ * Switch to window with URL
+ */
 WebUI.switchToWindowUrl('https://www.wikipedia.org/')
-WebUI.delay(2)
+WebUI.delay(3)
+
+/**
+ * Close window by title
+ */
+//WebUI.closeWindowTitle('CURA Healthcare Service')
+
+/**
+ * Close window by URL
+ */
+//WebUI.closeWindowUrl('https://katalon-demo-cura.herokuapp.com/')
+
+/**
+ * Close window by index
+ */
+WebUI.closeWindowIndex(1)
+WebUI.delay(3)
+
 WebUI.closeBrowser()
