@@ -10,15 +10,16 @@
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
    <data>John+Doe ThisIsNotAPassword</data>
+   <data>John+Doe1 ThisIsNotAPassword</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

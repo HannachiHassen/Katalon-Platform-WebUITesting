@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
-   <description></description>
-   <name>Test Suite Collection</name>
+   <description>Test suite for appointment test cases</description>
+   <name>Test Suite Collection Three</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>SEQUENTIAL</executionMode>
@@ -12,20 +12,20 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome (headless)</runConfigurationId>
+            <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test Suite/Suite 03 - Built-in Keywords</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Smoke Test Suite/STS001_Appointment validation</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Mobile</groupName>
+            <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationId>Android</runConfigurationId>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Dynamic Test Suite/Dynamic Test Suite 1</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite/Suite 01 - BookanAppointment</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

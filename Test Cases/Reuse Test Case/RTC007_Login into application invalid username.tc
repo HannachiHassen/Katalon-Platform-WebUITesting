@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Invalid login</description>
-   <name>RTC005_Login into application invalid username</name>
+   <name>RTC007_Login into application invalid username</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8979727b-79fd-4af1-b310-b67283a96a94</testCaseGuid>
