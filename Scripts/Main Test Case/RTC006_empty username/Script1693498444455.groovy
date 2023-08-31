@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reuse Test Case/RTC005_Navigate to Login page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reuse Test Case/Healthcare/RTC005_Navigate to Login page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Reuse Test Case/RTC010_Login into application empty username'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reuse Test Case/Healthcare/RTC010_Login into application empty username'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Reuse Test Case/RTC006_Invalid Credential message'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reuse Test Case/Healthcare/RTC006_Invalid Credential message'), [:], FailureHandling.STOP_ON_FAILURE)
 

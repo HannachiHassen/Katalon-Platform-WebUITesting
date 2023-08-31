@@ -35,7 +35,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Se
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
 String actule_Title=WebUI.getText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Make Appointment'))
-expected_title= "Make appointment"
+expected_title= "Make Appointment"
 
 WebUI.verifyEqual(actule_Title, expected_title)
 

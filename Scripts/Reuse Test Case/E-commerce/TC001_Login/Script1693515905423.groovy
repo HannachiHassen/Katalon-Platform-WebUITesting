@@ -17,7 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reuse Test Case/Healthcare/RTC001_Login into application'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.callTestCase(findTestCase('Reuse Test Case/Healthcare/RTC004_Book appointments'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://cms.demo.katalon.com/')
+
+WebUI.waitForPageLoad(5)
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Object Repository/Katalon Ecommerce/Page_Katalon Shop  Katalon Ecommerce/menuMy account'))
+
+WebUI.setText(findTestObject('Object Repository/Katalon Ecommerce/Page_My account  Katalon Shop/input__username'), 'customer')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Katalon Ecommerce/Page_My account  Katalon Shop/input__password'), 
+    'fcttOx1e+dws0mP0AWb2uMRTnZbRfS0W')
+
+WebUI.click(findTestObject('Object Repository/Katalon Ecommerce/Page_My account  Katalon Shop/btn_Log in'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Katalon Ecommerce/Page_My account  Katalon Shop/loggedUsername'), 
+    0)
+
+not_run: WebUI.verifyElementText(findTestObject('null'), 'KatalonLover')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Katalon Ecommerce/Page_My account  Katalon Shop/nav_HomeMyaccount'), 
+    0)
 

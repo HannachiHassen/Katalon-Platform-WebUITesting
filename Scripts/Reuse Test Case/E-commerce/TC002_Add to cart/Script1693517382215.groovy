@@ -17,7 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reuse Test Case/Healthcare/RTC001_Login into application'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reuse Test Case/E-commerce/TC001_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Reuse Test Case/Healthcare/RTC004_Book appointments'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Katalon Ecommerce/Page_My account  Katalon Shop/a_Shop'))
+
+WebUI.click(findTestObject('Object Repository/Katalon Ecommerce/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-_5f269b'))
+
+WebUI.click(findTestObject('Object Repository/Katalon Ecommerce/Page_Happy Ninja  Katalon Shop/btn_Add to cart'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Katalon Ecommerce/Page_Happy Ninja  Katalon Shop/div_View cart Happy Ninja has been added to_368951'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Katalon Ecommerce/Page_Happy Ninja  Katalon Shop/nav_HomeClothingHoodiesHappy Ninja'), 
+    0)
+
+WebUI.click(findTestObject('Object Repository/Katalon Ecommerce/Page_Happy Ninja  Katalon Shop/a_View cart'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Katalon Ecommerce/Page_Cart  Katalon Shop/h1_Cart'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Katalon Ecommerce/Page_Cart  Katalon Shop/a_Happy Ninja'), 
+    0)
 
