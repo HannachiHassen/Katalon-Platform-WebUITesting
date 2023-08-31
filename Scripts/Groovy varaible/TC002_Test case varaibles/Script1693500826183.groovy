@@ -32,13 +32,15 @@ WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/inp
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), password)
 
+sleep(5000)
+
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-String actule_Title = WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Make Appointment'))
+String actual_Title = WebUI.getText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Make Appointment'))
 
-expected_title = 'Make appointment'
+expected_title = 'Make Appointment'
 
-WebUI.verifyEqual(actule_Title, expected_title)
+WebUI.verifyEqual(actual_Title, expected_title)
 
 WebUI.closeBrowser()
 
