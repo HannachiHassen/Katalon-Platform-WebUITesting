@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Add guests_s1qcpybl dir dir-ltr</name>
+   <tag></tag>
+   <elementGuidId>962c5180-398d-4358-aac4-3400f164a092</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add guests'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.s1qcpybl.dir.dir-ltr</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8c4a13b8-50d7-42ed-80f6-0ee737856288</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>s1qcpybl dir dir-ltr</value>
+      <webElementGuid>45514598-2785-49f4-b32f-3714411e6f4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-icon</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>3e0b307f-6a26-47bb-a74c-23b7f71df6f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>little-search-icon</value>
+      <webElementGuid>15422982-e2e3-4af6-8710-c91e3c9794a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scrollbar-gutter js-focus-visible g1nrbpkt dir native vzpe6cu v1mud78p v4snkvz v1txbv48 vda4df1&quot;]/body[@class=&quot;with-new-header&quot;]/div[5]/div[1]/div[@class=&quot;t1bgcr6e&quot;]/div[1]/div[1]/div[@class=&quot;cd56ld cb80sj1 dir dir-ltr&quot;]/div[@class=&quot;hxsn4eb dir dir-ltr&quot;]/div[@class=&quot;c1yo0219 dir dir-ltr&quot;]/div[1]/div[@class=&quot;dir dir-ltr&quot;]/header[@class=&quot;c2hw3up cju3zis dir dir-ltr&quot;]/div[@class=&quot;c682lfu cqq60mr dir dir-ltr&quot;]/div[@class=&quot;cb994eh dir dir-ltr&quot;]/div[@class=&quot;lkm6i7z lr5v90m l1rzxhu2 l12rw3s8 dir dir-ltr&quot;]/div[@class=&quot;cs3bjhu dir dir-ltr&quot;]/span[@class=&quot;i19wqnbx dir dir-ltr&quot;]/button[@class=&quot;ffc0w66 dir dir-ltr&quot;]/div[@class=&quot;s1qcpybl dir dir-ltr&quot;]</value>
+      <webElementGuid>27a4968a-1a18-472b-8473-c3950c7662c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add guests'])[1]/following::div[1]</value>
+      <webElementGuid>3f474145-459a-4b75-b315-22a47acc48e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Guests'])[1]/following::div[2]</value>
+      <webElementGuid>2cc5c809-d63f-4f54-a83e-572ece16214a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stays'])[1]/preceding::div[2]</value>
+      <webElementGuid>5cab2971-2529-4fad-ad7b-c5e4225d8965</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Experiences'])[1]/preceding::div[4]</value>
+      <webElementGuid>32f80ba8-0eb2-49d8-baeb-3dd1117fcf5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]/div[2]</value>
+      <webElementGuid>35dee075-4cbc-4bb3-ad70-d1561d1f602a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

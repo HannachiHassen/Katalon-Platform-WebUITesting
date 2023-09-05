@@ -8,10 +8,9 @@ Katalon supports three methods to create automated tests: Record and Playback, u
 
 Record and Playback is a great solution to start for beginners and non-programmers. But to improve the test quality as time goes on, they should learn how to use the built-in keywords in the Manual Mode and ultimately get down to scripting to have more control over the test design.
 
-For test planning, the Platform (formerly Katalon TestOps) allows you to:
-
-- plan builds and releases
-- align tests with business requirements
-- organize and manage tests
-- schedule executions in cloud environments
-- evaluate whether the application under test is ready to be released
+## Data-Driven Testing:
+Data-Driven Testing, Katalon Studio supports various types of data files to which you can bind variables, including internal data in Katalon Studio, external data files such as MS Excel and CSV files, and any Java Database Connectivity (also known as JDBC) sources like PostgreSQL, MySQL, Oracle, and MS SQL Server.
+- First of all, more test data means higher test coverage and higher chances of bug detection. 
+- Second, Data-Driven Testing saves up time and resources since you don't need to create and run many test cases for each set of test data, hence, minimizing the duplicate codes and work. Also, it's easy for you to maintain. 
+- Test data, including test inputs and expected outputs, are stored separately from test scripts. 
+- You can change, update, or add new data to the data file without changing anything in the script.
