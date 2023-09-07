@@ -30,4 +30,11 @@
          <variableId>fd91fbec-e8c3-4dba-a5f7-eea79f9f704e</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>88b6ba05-6117-4e13-860b-fcbf7112395c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Visual Test/TC002_appointment</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
