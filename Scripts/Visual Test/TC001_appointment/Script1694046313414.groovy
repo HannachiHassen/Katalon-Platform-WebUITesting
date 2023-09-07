@@ -59,7 +59,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare S
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Medicaid'), 'Medicaid')
 
-WebUI.takeScreenshotAsCheckpoint('appointment info')
+WebUI.takeScreenshotAsCheckpoint('visual_test_pic')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Go to Homepage'))
 

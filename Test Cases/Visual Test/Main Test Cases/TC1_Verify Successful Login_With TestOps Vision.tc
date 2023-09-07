@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC001_appointment</name>
+   <name>TC1_Verify Successful Login_With TestOps Vision</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9de5dc5a-a8c0-498e-aa71-4a2b777ffc48</testCaseGuid>
+   <testCaseGuid>e05ce352-8744-45d5-b6bd-af6a3ad0b77c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d9937952-2edb-4bf8-993d-821205863398</variableId>
+      <variableId>e7bb77f8-70a6-4ac8-9439-1244ef41f288</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fd91fbec-e8c3-4dba-a5f7-eea79f9f704e</variableId>
+      <variableId>e276a24d-59f1-45e4-ac48-8d4fe58e651f</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>d9937952-2edb-4bf8-993d-821205863398</id>
+      <id>e7bb77f8-70a6-4ac8-9439-1244ef41f288</id>
       <masked>false</masked>
-      <name>healthcareCenter</name>
+      <name>Username</name>
    </variable>
    <variable>
-      <defaultValue>'Visual Testing'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>fd91fbec-e8c3-4dba-a5f7-eea79f9f704e</id>
+      <id>e276a24d-59f1-45e4-ac48-8d4fe58e651f</id>
       <masked>false</masked>
-      <name>comment</name>
+      <name>Password</name>
    </variable>
 </TestCaseEntity>
