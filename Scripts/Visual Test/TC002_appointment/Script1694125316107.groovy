@@ -38,7 +38,7 @@ WebUI.check(findTestObject('Page_CuraAppointment/chk_Medicaid'))
 
 WebUI.check(findTestObject('Page_CuraAppointment/chk_Readmission'))
 
-WebUI.setText(findTestObject('Page_CuraAppointment/txt_VisitDate'), '15/9/2023')
+WebUI.setText(findTestObject('Page_CuraAppointment/txt_VisitDate'), '15/09/2023')
 
 WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible.')
 
@@ -59,7 +59,7 @@ WebUI.verifyMatch('Yes', WebUI.getText(findTestObject('Page_AppointmentConfirmat
 
 WebUI.verifyMatch('Medicaid', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_Program')), false)
 
-WebUI.verifyMatch('15/9/2023', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_VisitDate')), false)
+WebUI.verifyMatch('15/09/2023', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_VisitDate')), false)
 
 WebUI.verifyMatch('Please make appointment as soon as possible.', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_Comment')), 
     false)
