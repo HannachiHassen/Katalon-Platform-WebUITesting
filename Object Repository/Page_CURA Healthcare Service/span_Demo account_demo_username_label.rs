@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_Appointment Confirmation</name>
+   <name>span_Demo account_demo_username_label</name>
    <tag></tag>
-   <elementGuidId>a1f36a2c-ffea-4053-be53-09a7ad411e9b</elementGuidId>
+   <elementGuidId>4f96b976-ca56-4250-8c92-ecb4a9384c64</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>h2</value>
+         <value>#demo_username_label</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='summary']/div/div/div/h2</value>
+         <value>//span[@id='demo_username_label']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
-      <webElementGuid>1190a9c5-f9b9-4741-b3dc-5cf1a608cd8a</webElementGuid>
+      <value>span</value>
+      <webElementGuid>29c5089b-217b-480a-a309-93c04b98eff7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-group-addon</value>
+      <webElementGuid>aae3fb4a-b513-4620-b233-64fe7335db0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Appointment Confirmation</value>
-      <webElementGuid>73f51267-2746-425e-9412-7b596fae8330</webElementGuid>
+      <value>demo_username_label</value>
+      <webElementGuid>bfdc8bea-3445-42f3-b706-7e614c949179</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;summary&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 text-center&quot;]/h2[1]</value>
-      <webElementGuid>72492394-6d0d-442d-9bee-3b2c46f6b096</webElementGuid>
+      <value>id(&quot;demo_username_label&quot;)</value>
+      <webElementGuid>35e4cdcf-4abb-4a29-b5e9-e4a145981e49</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='demo_username_label']</value>
+      <webElementGuid>11bb40cc-c6dd-4318-b0ed-bf8c2b2c6c13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='summary']/div/div/div/h2</value>
-      <webElementGuid>e4c9987b-d244-4511-8ce4-58454f2a4529</webElementGuid>
+      <value>//section[@id='login']/div/div/div[2]/form/div/div/div/div/span</value>
+      <webElementGuid>fd292c84-6770-46f1-ae65-3245dda3b377</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::h2[1]</value>
-      <webElementGuid>d6fc6f4a-9835-4a2c-b640-b9a52a36cfbe</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Demo account'])[1]/following::span[1]</value>
+      <webElementGuid>2a1c3e51-50a9-4811-a5e6-856e7a5e0235</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/following::h2[1]</value>
-      <webElementGuid>192909a2-bdde-4e37-861c-a28c5b20680a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/following::span[1]</value>
+      <webElementGuid>d8ae23aa-19a7-4ce4-abfb-c51809bca595</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facility'])[1]/preceding::h2[1]</value>
-      <webElementGuid>aa50433b-b983-48ae-b223-13c8d5407801</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::span[4]</value>
+      <webElementGuid>2c801ab2-a9a1-4b2e-9b28-31e0424e5ddc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply for hospital readmission'])[1]/preceding::h2[1]</value>
-      <webElementGuid>4c9a70d1-4748-43be-bf0c-18dea2d902c7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Appointment Confirmation']/parent::*</value>
-      <webElementGuid>40c55200-5667-4939-865f-21026080a805</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::span[4]</value>
+      <webElementGuid>c762bb26-f140-4596-9ca2-f34854a74f21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h2</value>
-      <webElementGuid>52b81f44-5dd1-4b34-8681-858d8ed9ddef</webElementGuid>
+      <value>//span</value>
+      <webElementGuid>3588357d-6939-4910-bb40-520a881345db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h2[(text() = 'Appointment Confirmation' or . = 'Appointment Confirmation')]</value>
-      <webElementGuid>64b991d9-fb72-4128-bda4-9d55f4659e5d</webElementGuid>
+      <value>//span[@id = 'demo_username_label']</value>
+      <webElementGuid>02968be4-d44a-467f-9741-3904e2a0a0de</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
