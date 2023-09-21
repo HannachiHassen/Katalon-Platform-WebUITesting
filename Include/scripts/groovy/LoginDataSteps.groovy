@@ -50,23 +50,23 @@ class LoginDataSteps {
 	@Given("User navigates to login page")
 	def navigateToLoginPage() {
 		println 'I am inside navigateToLoginPage'
-		
-		WebUI.openBrowser('')		
+
+		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 	}
-	
+
 	@When("User enters (.*) and (.*)")
 	def enterCredentials(String username, String password) {
 		println 'I am inside enterCredentials'
 		println 'Username is:' +username
 		println 'Password is:' +password
-		
-		WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/txt_Username'), username)		
+
+		WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/txt_Username'), username)
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/txt_Password'), password)
 	}
-	
+
 	@And("Click on login button")
-	def clickLogin() {
+	def clickLoginButton() {
 		println 'I am inside enterCredentials'
 		WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/btn_Login'))
 	}
@@ -75,5 +75,6 @@ class LoginDataSteps {
 	def verifyHomePage() {
 		println 'I am inside home page'
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OrangeHRM/span_Dashboard'), 5)
+		WebUI.closeBrowser()
 	}
 }

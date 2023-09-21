@@ -2,7 +2,7 @@ Feature: Login feature
 
  Scenario Outline: Test Login with valid credentials
 
-	Given User navigates to login page
-	When User enters username and password
-	And  Click on login button
-	Then User is navigate to Homepage
+	Given Navigates to login page
+	When Enters username and password
+	And  Click login button
+	Then Navigate to Homepage

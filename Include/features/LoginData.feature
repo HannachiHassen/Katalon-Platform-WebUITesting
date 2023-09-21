@@ -10,4 +10,3 @@ Feature: Login feature
 	Examples:
 		| username | password |
 		| Admin			 |  hUKwJTbofgPU9eVlw/CnDQ==  |
-		| DEF			   |  456                       |
