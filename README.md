@@ -32,7 +32,20 @@ Katalon Studio provides several methods to handle errors during test execution a
 
 ## Data-Driven Testing:
 Data-Driven Testing, Katalon Studio supports various types of data files to which you can bind variables, including internal data in Katalon Studio, external data files such as MS Excel and CSV files, and any Java Database Connectivity (also known as JDBC) sources like PostgreSQL, MySQL, Oracle, and MS SQL Server.
-- First of all, more test data means higher test coverage and higher chances of bug detection. 
-- Second, Data-Driven Testing saves up time and resources since you don't need to create and run many test cases for each set of test data, hence, minimizing the duplicate codes and work. Also, it's easy for you to maintain. 
-- Test data, including test inputs and expected outputs, are stored separately from test scripts. 
-- You can change, update, or add new data to the data file without changing anything in the script.
+ - First of all, more test data means higher test coverage and higher chances of bug detection. 
+ - Second, Data-Driven Testing saves up time and resources since you don't need to create and run many test cases for each set of test data, hence, minimizing the duplicate codes and work. Also, it's easy for you to maintain. 
+ - Test data, including test inputs and expected outputs, are stored separately from test scripts. 
+ - You can change, update, or add new data to the data file without changing anything in the script.
+
+## BDD Cucumber Tests In Katalon Studio
+
+- Step 1 : Inside Include folder - create a feature file
+- Step 2 : Create step definition for the feature file
+- Step 3 : Run feature file
+- Step 4 : Add data in Examples section
+- Step 5 : Run feature file
+- Step 6 : Create a login test  - https://opensource-demo.orangehrmlive...
+
+- Step 7 : Add the scripts in step definition
+- Step 8 : Run feature file
+- Step 9 : Run feature file from test case and test suite
